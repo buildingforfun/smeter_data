@@ -62,7 +62,7 @@ class SmeterData():
         plt.ylim(0)
         plt.xticks(rotation=45)
         plt.tight_layout()
-        plt.savefig('plots/{}.png'.format(name_plot+'_monthy'))
+        plt.savefig('plots/{}.png'.format(name_plot+'_monthly'))
         plt.clf()
 
 file_path_gas = "data/consumption_gas_2024.csv"
